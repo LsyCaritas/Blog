@@ -206,7 +206,7 @@
           <p><strong>整備進行中</strong><br><strong>试营运状态中</strong><br>普通的留学生，泉州人，坐标台北<br>喜欢的东西大概是西洋哲学，闽南文史和其它泛社科。以及ACG音乐和JPOP，音频设备，视觉小说，散策<br>我会说闽南语&#x2F;台语、华语、英语和日语<br>在国立台湾大学和香港城市大学读跨国双学位，专业是会计学，第二领域是财金<br>最喜欢的作家是片岡智，最爱的乐队是fhána<br>音频方面还停留在便携，目前是AKG N5005&amp;FINAL A8000&amp;ATH-LS200，DAP是山灵M9</p>
 <p>关于内容<br>自由书写和统整所有文字的地方，但我暂时不会关闭其它社群媒体的账号<br>可能会有零碎的日记和想法，但主要还是文章<br>暂时我想做的是视觉小说评价，片冈智译介，音频与音乐的爱好部分<br>泛社科的部分，上次写有关哲学、社会的文章，应该是三四年前了，所以我暂时只会把想法融入到别的地方<br>或者说是我不想再关心太多类似的事情了…..<br>视点与偏见总是先于表达的，不同的是我会承认和放大这件事<br>所以我的视点是最不重要的事，表达才是<br>最后是会计和财金的一些知识，大学的修课体验，毕竟，还是要有社会所需的一个技能吧……</p>
 <p>关于网页<br>这是基于hexo的next主题，暂时托管在github上的静态网页<br>请使用“分類”页来阅读文章<br>当使用“搜寻”查找内文时，可能需要用简繁两种字体各自搜寻<br>因为我并不懂Web开发，所以网页也不会有太多功能<br>程式码均是套用或者AI辅助编辑<br>但如果有恶性的bug，请让我知道<br>我更新了Rss 如果有帮助 请多加利用<br>Github repositories:<a target="_blank" rel="noopener" href="https://github.com/LsyCaritas/Blog">https://github.com/LsyCaritas/Blog</a></p>
-<p>联络<br>不擅长人际交往，社群媒体的私信也不怎么会回复，抱歉<br>文章有提到的或者涉及到隐私的问题，我不会再回复<br>但如果你就部分文章有想法或问题，那你可以寄信到：<a href="mailto:&#83;&#x69;&#121;&#117;&#x6e;&#48;&#x38;&#48;&#52;&#x40;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#x6f;&#x6d;">Siyun0804@yahoo.com</a><br>信箱地址可能会改变</p>
+<p>联络<br>不擅长人际交往，社群媒体的私信也不怎么会回复，抱歉<br>文章有提到的或者涉及到隐私的问题，我不会再回复<br>但如果你就部分文章有想法或问题，那你可以寄信到：<a href="mailto:&#x53;&#105;&#x79;&#117;&#110;&#x30;&#x38;&#48;&#x34;&#x40;&#121;&#97;&#x68;&#111;&#x6f;&#46;&#x63;&#111;&#x6d;">Siyun0804@yahoo.com</a><br>信箱地址可能会改变</p>
 <p>最后<br>无聊的、暧昧的、冷静的、无情的现实。<br>不会像电视剧和电影那样充满戏剧感，变化总是不被察觉，单调无趣的每一天。<br>明明没有什么值得期待的行程，却又数着手指盼着周末的每一天。<br>轻视无聊的日常，寻找假想的刺激；探求容身之地，建立自身的价值观，人人只会时常关心自己是否身处安全圈内的世界。<br>……但也是尚不能抛弃的世界。<br>————片岡とも《1980》</p>
 
       </div>
@@ -356,7 +356,59 @@
     <!--由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 強力驅動-->
   </div>
 
+<!-- 建站運行時間（快速版） -->
+<div>
+  <span id="timeDate">載入天數...</span>
+  <span id="times">載入時分秒...</span>
+</div>
+
+<script>
+(function(){
+  // 修改下面的建站時間（建議使用 ISO 格式或 YYYY/MM/DD）
+  var grt = new Date("2025-02-26T03:00:00");
+
+  function createtime(){
+    var now = new Date();
+    var diff = Math.floor((now - grt) / 1000); // 相差秒數
+    var days = Math.floor(diff / 86400);
+    var hours = Math.floor((diff % 86400) / 3600);
+    var minutes = Math.floor((diff % 3600) / 60);
+    var seconds = diff % 60;
+
+    hours = String(hours).padStart(2, '0');
+    minutes = String(minutes).padStart(2, '0');
+    seconds = String(seconds).padStart(2, '0');
+
+    document.getElementById('timeDate').textContent = '已運行 ' + days + ' 天 ';
+    document.getElementById('times').textContent = hours + ' 小時 ';
+  }
+
+  createtime();              // 頁面載入先顯示一次
+  setInterval(createtime, 1000); // 每秒更新
+})();
+</script>
+
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="訪客總數">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="總瀏覽次數">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
 
 
 
