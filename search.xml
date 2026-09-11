@@ -1672,17 +1672,20 @@
     <content><![CDATA[<p><img src="/Blog/images/karin-birthday-2026.png"></p>
 <p><strong>9.9 夏色花梨生日祭！</strong></p>
 <p>原曲：TOKOTOKO（西沢P）《君色に染まる》<br>Vocal：夏色花梨<br>調聲／混音：Me<br>歌詞參考了巴哈姆特的翻譯再做修改<br>混音 sry，真的不會</p>
-<!-- 影片連結待補 -->
-
 <p><img src="/Blog/images/kimi-iro-ni-somaru-karin-cover.png"></p>
+<p><strong>MP3 音源</strong></p>
 <audio controls preload="metadata" style="width: 100%;">
   <source src="/Blog/music/kimi-iro-ni-somaru-karin.mp3" type="audio/mpeg">
   你的瀏覽器不支援音訊播放。
 </audio>
 
-<p><a href="/Blog/music/kimi-iro-ni-somaru-karin.mp3">下載 MP3 音源</a>　／　<a href="/Blog/music/kimi-iro-ni-somaru-karin.flac">下載 FLAC 無損音源</a></p>
-<span id="more"></span>
+<p><strong>FLAC 無損音源</strong></p>
+<audio controls preload="metadata" style="width: 100%;">
+  <source src="/Blog/music/kimi-iro-ni-somaru-karin.flac" type="audio/flac">
+  你的瀏覽器不支援 FLAC 音訊播放。
+</audio>
 
+<p><a href="/Blog/music/kimi-iro-ni-somaru-karin.mp3">下載 MP3 音源</a>　／　<a href="/Blog/music/kimi-iro-ni-somaru-karin.flac">下載 FLAC 無損音源</a></p>
 <p>最近，西沢發了新的專輯《地球の音楽家》。</p>
 <p>除了先前為花隈千冬 Synthesizer V 2 官方 demo song 寫的《深夜ラジオにおいでよ》，我非常喜歡的還有曲順 7《MARBLE》。</p>
 <p>少年時代是薔薇色。<br>青春時代變成鈍色。<br>那些當時覺得毫無意義的事情，最後居然全部變成了歌。</p>
@@ -1710,9 +1713,11 @@
 <p>大概這也是為什麼這張專輯最後會叫《地球の音楽家》吧。</p>
 <p>另外，我覺得《深夜ラジオにおいでよ》其實也有類似的東西。作曲上用了不少能聯想到《夜もすがら君想ふ》的技巧，想表達的東西，也是這樣相通的吧。</p>
 <p>如果有時間，我會再把《夜もすがら君想ふ》給完善下。實際上，我更喜歡那一首。</p>
-<h2 id="關於這次調聲"><a href="#關於這次調聲" class="headerlink" title="關於這次調聲"></a>關於這次調聲</h2><p>也是第一次用 200.6 這個版本的聲庫。</p>
+<p><strong>關於這次調聲</strong></p>
+<p>也是第一次用 200.6 這個版本的聲庫。</p>
 <p>比較特別的是，這次發現 Codex 接入 MCP 後可以看到我 SynthV 的參數。當然它不可能替代調音，而且目前所有大模型的樂感都非常差勁。不過你可以用一種非常精準、量化的方式去看到每個音如果要達成你想要的效果，具體的參數要調到多少 ms 這種精度的狀態。對比純粹用手畫綫，真的是一種很神奇的體驗。</p>
-<h2 id="歌詞"><a href="#歌詞" class="headerlink" title="歌詞"></a>歌詞</h2><p>期待してすぐに諦めて<br>才剛抱有期待，卻又很快放棄</p>
+<p><strong>歌詞</strong></p>
+<p>期待してすぐに諦めて<br>才剛抱有期待，卻又很快放棄</p>
 <p>曖昧な答えに流されては<br>一次次被曖昧的答案牽著走</p>
 <p>自分だけ置いて行かれるような<br>彷彿只有我一個人被留在原地</p>
 <p>そんなイメージが胸をつつく夜だ<br>這樣的想像，又在夜裡輕戳著胸口</p>
